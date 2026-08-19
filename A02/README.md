@@ -32,22 +32,22 @@ A02/
 
 ## File Overview
 
-  File                  Purpose
-  --------------------- -----------------------------------------------------------
-  `main.c`              Entry point used to run and test the lexer
-  `Lexer.h`             Public interface and data structure for the lexer
-  `Lexer.c`             Core lexical-analysis implementation
-  `Token.h`             Defines token types and the `Token` structure
-  `Token.c`             Token creation and token-type utilities
-  `Error.h`             Defines the error representation
-  `Error.c`             Error formatting, printing, and cleanup
-  `Reader.h`            Public interface for source-file reading
-  `Reader.c`            Reads characters and tracks source position
-  `CodeLoc.h`           Defines source line/column information
-  `CodeLoc.c`           Utilities related to `CodeLoc`
-  `Input/input.c`       C source file used as lexer input
-  `Output/output.txt`   Captures the result of a lexer run
-  `run.sh`              Compiles, executes, and cleans up the lexer automatically
+| File                | Purpose                                                   |
+| ------------------- | --------------------------------------------------------- |
+| `main.c`            | Entry point used to run and test the lexer                |
+| `Lexer.h`           | Public interface and data structure for the lexer         |
+| `Lexer.c`           | Core lexical-analysis implementation                      |
+| `Token.h`           | Defines token types and the `Token` structure             |
+| `Token.c`           | Token creation and token-type utilities                   |
+| `Error.h`           | Defines the error representation                          |
+| `Error.c`           | Error formatting, printing, and cleanup                   |
+| `Reader.h`          | Public interface for source-file reading                  |
+| `Reader.c`          | Reads characters and tracks source position               |
+| `CodeLoc.h`         | Defines source line/column information                    |
+| `CodeLoc.c`         | Utilities related to `CodeLoc`                            |
+| `Input/input.c`     | C source file used as lexer input                         |
+| `Output/output.txt` | Captures the result of a lexer run                        |
+| `run.sh`            | Compiles, executes, and cleans up the lexer automatically |
 
 ------------------------------------------------------------------------
 
