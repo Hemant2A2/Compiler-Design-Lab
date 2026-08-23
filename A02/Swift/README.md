@@ -295,6 +295,3 @@ The lexer correctly recognizes `const` as a C keyword. Determining that `const` 
 
 - Swift 6.x or a compatible Swift toolchain
 - `swiftc`
-- A Unix-like shell for `run.sh`
-
-The code uses standard Swift/Foundation functionality and does not require third-party packages.
