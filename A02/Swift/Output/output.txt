@@ -1,0 +1,108 @@
+========== TOKENS ==========
+
+Token: HASH | Lexeme: # | Line: 1 | Column: 1
+Token: IDENTIFIER | Lexeme: include | Line: 1 | Column: 2
+Token: LESS | Lexeme: < | Line: 1 | Column: 10
+Token: IDENTIFIER | Lexeme: stdio | Line: 1 | Column: 11
+Token: DOT | Lexeme: . | Line: 1 | Column: 16
+Token: IDENTIFIER | Lexeme: h | Line: 1 | Column: 17
+Token: GREATER | Lexeme: > | Line: 1 | Column: 18
+Token: TYPE_INTEGER | Lexeme: int | Line: 3 | Column: 1
+Token: IDENTIFIER | Lexeme: main | Line: 3 | Column: 5
+Token: OPEN_PAREN | Lexeme: ( | Line: 3 | Column: 9
+Token: CLOSE_PAREN | Lexeme: ) | Line: 3 | Column: 10
+Token: OPEN_BRACE | Lexeme: { | Line: 3 | Column: 12
+Token: TYPE_INTEGER | Lexeme: int | Line: 4 | Column: 5
+Token: IDENTIFIER | Lexeme: a | Line: 4 | Column: 9
+Token: ASSIGN | Lexeme: = | Line: 4 | Column: 11
+Token: INVALID | Lexeme: @ | Line: 4 | Column: 13
+Token: SEMICOLON | Lexeme: ; | Line: 4 | Column: 14
+Token: TYPE_INTEGER | Lexeme: int | Line: 5 | Column: 5
+Token: IDENTIFIER | Lexeme: b | Line: 5 | Column: 9
+Token: ASSIGN | Lexeme: = | Line: 5 | Column: 11
+Token: INTEGER_LIT | Lexeme: 20 | Line: 5 | Column: 13
+Token: SEMICOLON | Lexeme: ; | Line: 5 | Column: 15
+Token: TYPE_FLOAT | Lexeme: float | Line: 6 | Column: 5
+Token: IDENTIFIER | Lexeme: x | Line: 6 | Column: 11
+Token: ASSIGN | Lexeme: = | Line: 6 | Column: 13
+Token: FLOAT_LIT | Lexeme: 15.5 | Line: 6 | Column: 15
+Token: SEMICOLON | Lexeme: ; | Line: 6 | Column: 22
+Token: CONST | Lexeme: const | Line: 7 | Column: 5
+Token: TYPE_INTEGER | Lexeme: int | Line: 7 | Column: 11
+Token: IDENTIFIER | Lexeme: limit | Line: 7 | Column: 15
+Token: ASSIGN | Lexeme: = | Line: 7 | Column: 21
+Token: INTEGER_LIT | Lexeme: 10 | Line: 7 | Column: 23
+Token: SEMICOLON | Lexeme: ; | Line: 7 | Column: 25
+Token: IF | Lexeme: if | Line: 9 | Column: 5
+Token: OPEN_PAREN | Lexeme: ( | Line: 9 | Column: 8
+Token: IDENTIFIER | Lexeme: a | Line: 9 | Column: 9
+Token: LESS | Lexeme: < | Line: 9 | Column: 11
+Token: IDENTIFIER | Lexeme: b | Line: 9 | Column: 13
+Token: LOGICAL_AND | Lexeme: && | Line: 9 | Column: 15
+Token: IDENTIFIER | Lexeme: limit | Line: 9 | Column: 18
+Token: GREATER_EQUAL | Lexeme: >= | Line: 9 | Column: 24
+Token: INTEGER_LIT | Lexeme: 10 | Line: 9 | Column: 27
+Token: CLOSE_PAREN | Lexeme: ) | Line: 9 | Column: 29
+Token: OPEN_BRACE | Lexeme: { | Line: 9 | Column: 31
+Token: IDENTIFIER | Lexeme: a | Line: 10 | Column: 9
+Token: PLUS_ASSIGN | Lexeme: += | Line: 10 | Column: 11
+Token: INTEGER_LIT | Lexeme: 5 | Line: 10 | Column: 14
+Token: SEMICOLON | Lexeme: ; | Line: 10 | Column: 15
+Token: CLOSE_BRACE | Lexeme: } | Line: 11 | Column: 5
+Token: ELSE | Lexeme: else | Line: 11 | Column: 7
+Token: OPEN_BRACE | Lexeme: { | Line: 11 | Column: 12
+Token: IDENTIFIER | Lexeme: b | Line: 12 | Column: 9
+Token: MINUS_ASSIGN | Lexeme: -= | Line: 12 | Column: 11
+Token: INTEGER_LIT | Lexeme: 5 | Line: 12 | Column: 14
+Token: SEMICOLON | Lexeme: ; | Line: 12 | Column: 15
+Token: CLOSE_BRACE | Lexeme: } | Line: 13 | Column: 5
+Token: WHILE | Lexeme: while | Line: 15 | Column: 5
+Token: OPEN_PAREN | Lexeme: ( | Line: 15 | Column: 11
+Token: IDENTIFIER | Lexeme: a | Line: 15 | Column: 12
+Token: NOT_EQUAL | Lexeme: != | Line: 15 | Column: 14
+Token: IDENTIFIER | Lexeme: b | Line: 15 | Column: 17
+Token: CLOSE_PAREN | Lexeme: ) | Line: 15 | Column: 18
+Token: OPEN_BRACE | Lexeme: { | Line: 15 | Column: 20
+Token: IDENTIFIER | Lexeme: a | Line: 16 | Column: 9
+Token: INCREMENT | Lexeme: ++ | Line: 16 | Column: 10
+Token: SEMICOLON | Lexeme: ; | Line: 16 | Column: 12
+Token: IDENTIFIER | Lexeme: b | Line: 17 | Column: 9
+Token: DECREMENT | Lexeme: -- | Line: 17 | Column: 10
+Token: SEMICOLON | Lexeme: ; | Line: 17 | Column: 12
+Token: CLOSE_BRACE | Lexeme: } | Line: 18 | Column: 5
+Token: FOR | Lexeme: for | Line: 20 | Column: 5
+Token: OPEN_PAREN | Lexeme: ( | Line: 20 | Column: 9
+Token: TYPE_INTEGER | Lexeme: int | Line: 20 | Column: 10
+Token: IDENTIFIER | Lexeme: i | Line: 20 | Column: 14
+Token: ASSIGN | Lexeme: = | Line: 20 | Column: 16
+Token: INTEGER_LIT | Lexeme: 0 | Line: 20 | Column: 18
+Token: SEMICOLON | Lexeme: ; | Line: 20 | Column: 19
+Token: IDENTIFIER | Lexeme: i | Line: 20 | Column: 21
+Token: LESS | Lexeme: < | Line: 20 | Column: 23
+Token: INTEGER_LIT | Lexeme: 10 | Line: 20 | Column: 25
+Token: SEMICOLON | Lexeme: ; | Line: 20 | Column: 27
+Token: IDENTIFIER | Lexeme: i | Line: 20 | Column: 29
+Token: INCREMENT | Lexeme: ++ | Line: 20 | Column: 30
+Token: CLOSE_PAREN | Lexeme: ) | Line: 20 | Column: 32
+Token: OPEN_BRACE | Lexeme: { | Line: 20 | Column: 34
+Token: IDENTIFIER | Lexeme: x | Line: 21 | Column: 9
+Token: ASSIGN | Lexeme: = | Line: 21 | Column: 11
+Token: IDENTIFIER | Lexeme: x | Line: 21 | Column: 13
+Token: PLUS | Lexeme: + | Line: 21 | Column: 15
+Token: FLOAT_LIT | Lexeme: 1.5 | Line: 21 | Column: 17
+Token: SEMICOLON | Lexeme: ; | Line: 21 | Column: 20
+Token: CLOSE_BRACE | Lexeme: } | Line: 22 | Column: 5
+Token: RETURN | Lexeme: return | Line: 25 | Column: 5
+Token: INTEGER_LIT | Lexeme: 0 | Line: 25 | Column: 12
+Token: SEMICOLON | Lexeme: ; | Line: 25 | Column: 13
+Token: CLOSE_BRACE | Lexeme: } | Line: 26 | Column: 1
+Token: END_OF_FILE | Lexeme: EOF | Line: 27 | Column: 1
+
+============================
+
+========== LEXICAL ERRORS ==========
+
+Lexical Error at line 4, column 13: Invalid character '@'
+Lexical Error at line 6, column 19: Invalid numeric literal: multiple decimal points
+
+=====================================
